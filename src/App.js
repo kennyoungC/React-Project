@@ -4,13 +4,12 @@ import MyFooter from "./Component/MyFooter"
 import MyNavbar from "./Component/MyNavbar"
 import LatestRelease from "./Component/LatestRelease"
 import { Container } from "react-bootstrap"
+import MyJumbotron from "./Component/MyJumbotron"
 function App() {
   return (
     <div>
       <MyNavbar />
-      <Container className="my-3">
-        <h1>Welcome to My Book Store by kenneth</h1>
-      </Container>
+      <MyJumbotron />
       <LatestRelease />
       <MyFooter />
     </div>

@@ -1,9 +1,9 @@
-import Books from "../Data/Books.json"
+import Scifi from "../Data/Scifi.json"
 import { Card, Button, Container, Row, Col } from "react-bootstrap"
 const LatestRelease = () => (
   <Container>
     <Row>
-      {Books.map((book) => (
+      {Scifi.map((book) => (
         <Col md={3}>
           <Card>
             <Card.Img variant="top" src={book.img} />

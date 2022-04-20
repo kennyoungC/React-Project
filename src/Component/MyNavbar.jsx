@@ -1,19 +1,21 @@
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap"
 const MyNavbar = () => (
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <Container>
+    <Container fluid>
       <Navbar.Brand href="#home">KEN-Book-Store</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ms-auto">
+        <Nav className="me-auto">
           <Nav.Link href="#features">Home</Nav.Link>
           <Nav.Link href="#pricing">About</Nav.Link>
-          <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+          <NavDropdown title="Books Genre" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#">Browse</NavDropdown.Item>
-            <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#">Something</NavDropdown.Item>
+            <NavDropdown.Item href="#">Sci-Fi</NavDropdown.Item>
+            <NavDropdown.Item href="#">History</NavDropdown.Item>
+            <NavDropdown.Item href="#">Horror</NavDropdown.Item>
+            <NavDropdown.Item href="#">Fantasy</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
+            <NavDropdown.Item href="#">Romance</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>

@@ -4,10 +4,11 @@ import Romance from "../Data/Romance.json"
 import Fantasy from "../Data/Fantasy.json"
 import History from "../Data/History.json"
 import { Card, Button, Container, Row, Col } from "react-bootstrap"
+const genres = [Scifi, History, Horror, Romance, Fantasy]
 const LatestRelease = (props) => (
   <Container>
     <Row>
-      {Horror.map((book, i) => (
+      {genres[props.index].map((book, i) => (
         <Col md={3} key={i}>
           <Card>
             <Card.Img variant="top" src={book.img} />

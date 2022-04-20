@@ -6,7 +6,7 @@ const MyNavbar = () => (
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ms-auto">
-          <Nav.Link href="#features">Hom</Nav.Link>
+          <Nav.Link href="#features">Home</Nav.Link>
           <Nav.Link href="#pricing">About</Nav.Link>
           <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#">Browse</NavDropdown.Item>

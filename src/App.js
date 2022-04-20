@@ -10,7 +10,7 @@ function App() {
     <div>
       <MyNavbar />
       <MyJumbotron />
-      <LatestRelease />
+      <LatestRelease genre="Horror" />
       <MyFooter />
     </div>
   )

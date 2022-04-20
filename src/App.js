@@ -9,7 +9,7 @@ function App() {
     <div>
       <MyNavbar />
       <Container className="my-3">
-        <h1>Welcome to My Book Store</h1>
+        <h1>Welcome to My Book Store by kenneth</h1>
       </Container>
       <LatestRelease />
       <MyFooter />

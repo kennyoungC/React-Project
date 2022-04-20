@@ -40,3 +40,6 @@
   min-height: 35vh;
   background-color: rgba(3, 3, 3, 0.697);
 }
+.card {
+  height: 720px;
+}

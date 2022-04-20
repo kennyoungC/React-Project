@@ -9,7 +9,7 @@ const LatestRelease = (props) => (
   <Container>
     <Row>
       {genres[props.index].map((book, i) => (
-        <Col md={3} key={i}>
+        <Col sm={6} md={4} lg={3} key={i} className="mb-3">
           <Card>
             <Card.Img variant="top" src={book.img} />
             <Card.Body>

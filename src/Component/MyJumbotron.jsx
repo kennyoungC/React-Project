@@ -18,7 +18,7 @@ class MyJumbotron extends Component {
         <div className="Jumbotron d-flex flex-column align-items-center justify-content-center">
           <Container>
             <div className="d-flex flex-column  align-items-center  text-center text-light">
-              <h1>Welcome to kenneth Book Store</h1>
+              <h1>Welcome to kenneth Book Store by ahmed</h1>
               <p>
                 This is a simple hero unit, a simple jumbotron-style component
                 for calling extra attention to featured content or information.
